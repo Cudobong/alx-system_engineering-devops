@@ -1,2 +1,3 @@
-echo "0 string SCHOOL" > school.mgc
-file -m school.mgc -k *
+#!/bin/bash
+0 string SCHOOL
+
