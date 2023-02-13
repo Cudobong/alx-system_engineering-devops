@@ -1,2 +1,2 @@
 #!/bin/bash
-LC_COLLATE=C find . -type f -name '*.gif' | while read file; do file_name=$(echo "$file" | rev | cut -d/ -f1 | rev | cut -d. -f1); echo "$file_name"; done | sort | cut -d$'\n' -f1
+LC_ALL=C find . -type f -name "*.git" | rev | cut -d "/" -f 1 | cut -d "." -f 2- | rev | sort -f
